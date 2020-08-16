@@ -1,0 +1,13 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+    border: 2px solid rgb(26, 25, 25);
+    margin: 5px;
+    width:40%;
+    position: relative;
+    display:block;
+    text-align: center;    
+}
