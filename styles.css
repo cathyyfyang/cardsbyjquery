@@ -1,0 +1,39 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin:10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid rgb(128, 125, 125);
+    margin: 5px;
+    width:45%;
+    height:100px;
+    position: relative;
+    text-align: center;  
+    border-radius: 8px;  
+    background: rgb(211, 224, 214);
+}
+
+.id,.name,.age {
+    width:30%;
+    margin:5px;
+    height:25px;
+    font-size: 20px;
+    align-self: center;
+}
+
+.id {
+  font-weight: bold;
+}
+
+.name {
+  font-weight: bolder;
+}
+
+.age {
+  font-style: italic;
+}
